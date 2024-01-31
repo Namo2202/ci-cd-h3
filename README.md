@@ -19,8 +19,8 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 
 ## Schéma de la Base de Données MongoDB : 
 
--   ![Alt text](<schéma bdd.png>)
--   ![Alt text](mongodb.png)
+-   ![Alt text](<screenshots/schéma bdd.png>)
+-   ![Alt text](screenshots/mongodb.png)
 
 ## Les routes pour les requêtes POST,GET,PUT,DELETE et PATCH :
 
@@ -41,17 +41,17 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 ### Frontend :
 
 -   1) Build de l'image frontend :
-    -   ![Alt text](<Build image docker frontend.png>)
+    -   ![Alt text](<screenshots/Build image docker frontend.png>)
 -   2) Push de l'image sur Docker hub :
-    -   ![Alt text](<Push image frontend sur dockerhub.png>)
-    -   ![Alt text](<Image frontend dockerhub.png>)
+    -   ![Alt text](<screenshots/Push image frontend sur dockerhub.png>)
+    -   ![Alt text](<screenshots/Image frontend dockerhub.png>)
     -   Lien image frontend docker hub : https://hub.docker.com/repository/docker/nafise22/mern-project-namo/general
 -   3) Création et lancement du container :
-    -   ![Alt text](<création container frontend.png>)
-    -   ![Alt text](<localhost frontend.png>)
+    -   ![Alt text](<screenshots/création container frontend.png>)
+    -   ![Alt text](<screenshots/localhost frontend.png>)
     4) Arrêt du conteneur :
-    -   ![Alt text](<Arrêt du container frontend.png>)
-    -   ![Alt text](<localhost après arrêt du container.png>)
+    -   ![Alt text](<screenshots/Arrêt du container frontend.png>)
+    -   ![Alt text](<screenshots/localhost après arrêt du container.png>)
 
 
 
