@@ -40,18 +40,24 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 
 ### Frontend :
 
--   1) Build de l'image frontend :
+-   I. Build de l'image frontend :
     -   ![Alt text](<screenshots/Build image docker frontend.png>)
--   2) Push de l'image sur Docker hub :
+-   II. Push de l'image sur Docker hub :
     -   ![Alt text](<screenshots/Push image frontend sur dockerhub.png>)
     -   ![Alt text](<screenshots/Image frontend dockerhub.png>)
     -   Lien image frontend docker hub : https://hub.docker.com/repository/docker/nafise22/mern-project-namo/general
--   3) Création et lancement du container :
+-   III. Création et lancement du container :
     -   ![Alt text](<screenshots/création container frontend.png>)
     -   ![Alt text](<screenshots/localhost frontend.png>)
-    4) Arrêt du conteneur :
+    IV. Arrêt du conteneur :
     -   ![Alt text](<screenshots/Arrêt du container frontend.png>)
     -   ![Alt text](<screenshots/localhost après arrêt du container.png>)
 
+### Backend :
 
+-   I. Build de l'image backend:
+    ![Alt text](<screenshots/Build image docker backend.png>)
+-   II. Création et lancement du container :
+    ![Alt text](screenshots/Backend_server_container.png)
+    ![Alt text](<screenshots/Localhost 5000.png>)
 
