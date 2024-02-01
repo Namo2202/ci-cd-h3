@@ -1,0 +1,34 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  EMAIL: ${{ secrets.EMAIL }}
+  PASSWORD: ${{ secrets.PASSWORD }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install and test frontend
+        working-directory: ./frontend
+        run: |
+          npm install
+          npm run test
+
+      - name: Install and test backend
+        working-directory: ./backend
+        run: |
+          npm install
+          export MONGODB_URI=$MONGODB_URI
+          export EMAIL=$EMAIL
+          export PASSWORD=$PASSWORD
+          npm run test
