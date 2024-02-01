@@ -1,0 +1,22 @@
+name: Frontend server TEST
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install Dependecies
+        working-directory: ./frontend
+        run: npm install
+
+      - name: Run Frontend test
+        working-directory: .
+        run: npm run test
