@@ -10,6 +10,12 @@ services:
       - /app/node_modules
     stdin_open: true
     tty: true
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    restart: always
   backend:
     build: .
     container_name: backend_server_container
@@ -18,3 +24,9 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:5000/post"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    restart: always

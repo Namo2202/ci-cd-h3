@@ -12,4 +12,7 @@ COPY . .
 
 EXPOSE 5000
 
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD wget -qO- http://localhost:5000/post || exit 1
+
 CMD ["npm", "run", "server"]
