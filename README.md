@@ -84,3 +84,31 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 -   II. Test avec Postman pour accéder à l'application via le proxy Nginx:
     ![Alt text](<screenshots/test requete GET postman backend.png>)
     ![Alt text](<screenshots/test requete GET postman frontend.png>)
+
+# Test Unitaires : 
+
+## Backend :
+
+-   ![Alt text](<screenshots/Unit test backend.png>)
+
+## Frontend :
+
+-   ![Alt text](<screenshots/Unit test frontend.png>)
+
+# Continus Integration/Deployment with github :
+
+## Backend :
+
+-   I. Build docker image backend server et push sur docker hub:
+    ![Alt text](<screenshots/Build github Backend docker image.png>)
+    ![Alt text](<screenshots/github push backend docker image.png>)
+-   II. Run & test backend server :
+    ![Alt text](<screenshots/Run and test backend server.png>)
+
+## Frontend :
+
+-   I. Build docker image frontend server et push sur docker hub:
+    ![Alt text](<screenshots/Build github Frontend docker image.png>)
+    ![Alt text](<screenshots/github push frontend docker image.png>)
+-   II. Run & test frontend server :
+

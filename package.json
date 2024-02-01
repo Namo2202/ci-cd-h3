@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest tests/post.controller.test.js",
+    "test": "jest test_unit/post.controller.test.js",
     "server": "nodemon ./backend/server.js"
   },
   "author": "",
