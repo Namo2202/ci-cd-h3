@@ -1,0 +1,22 @@
+name: Backend server TEST
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install Dependecies
+        working-directory: .
+        run: npm install
+
+      - name: Run Backend test
+        working-directory: .
+        run: npm run test
