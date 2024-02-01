@@ -100,19 +100,19 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 ## Backend :
 
 -   I. Build docker image backend server et push sur docker hub:
-    ![build & push backend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml/badge.svg)
+    [![Build and deploy backend docker image](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml)
     ![Alt text](<screenshots/Build github Backend docker image.png>)
     ![Alt text](<screenshots/github push backend docker image.png>)
 -   II. Run & test backend server :
-    ![Run & test backend server workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg)
+    [![Frontend server TEST](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml)
     ![Alt text](<screenshots/Run and test backend server.png>)
 
 ## Frontend :
 
 -   I. Build docker image frontend server et push sur docker hub:
-    ![build & push frontend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml/badge.svg)
+    [![Build and deploy frontend docker image](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml)
     ![Alt text](<screenshots/Build github Frontend docker image.png>)
     ![Alt text](<screenshots/github push frontend docker image.png>)
 -   II. Run & test frontend server :
-    ![Run & test frontend server workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg)
+    [![Backend server TEST](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml)
     ![Alt text](<screenshots/Run and Test frontend server.png>)
