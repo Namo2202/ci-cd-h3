@@ -104,7 +104,7 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
     ![Alt text](<screenshots/Build github Backend docker image.png>)
     ![Alt text](<screenshots/github push backend docker image.png>)
 -   II. Run & test backend server :
-    [![Frontend server TEST](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml)
+    [![Backend server TEST](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml)
     ![Alt text](<screenshots/Run and test backend server.png>)
 
 ## Frontend :
@@ -114,5 +114,5 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
     ![Alt text](<screenshots/Build github Frontend docker image.png>)
     ![Alt text](<screenshots/github push frontend docker image.png>)
 -   II. Run & test frontend server :
-    [![Backend server TEST](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml)
+    [![Frontend server TEST](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg?branch=main)](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml)
     ![Alt text](<screenshots/Run and Test frontend server.png>)
