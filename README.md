@@ -102,13 +102,22 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 -   I. Build docker image backend server et push sur docker hub:
     ![Alt text](<screenshots/Build github Backend docker image.png>)
     ![Alt text](<screenshots/github push backend docker image.png>)
+    ![build & push backend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml/badge.svg)
+    ![build & push backend docker image event parameter](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml/badge.svg?event=push)
 -   II. Run & test backend server :
     ![Alt text](<screenshots/Run and test backend server.png>)
+    ![Run & test backend server workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg)
+     ![Run & test backend server event parameter](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg?event=push)
 
 ## Frontend :
 
 -   I. Build docker image frontend server et push sur docker hub:
     ![Alt text](<screenshots/Build github Frontend docker image.png>)
     ![Alt text](<screenshots/github push frontend docker image.png>)
+    ![build & push frontend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml/badge.svg)
+     ![build & push frontend docker image event parameter](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml/badge.svg?event=push)
 -   II. Run & test frontend server :
+    ![Alt text](<screenshots/Run and Test frontend server.png>)
+    ![Run & test frontend server workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg)
+     ![build & push frontend docker image event parameter](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg?event=push)
 
