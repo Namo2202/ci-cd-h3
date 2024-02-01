@@ -100,19 +100,19 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 ## Backend :
 
 -   I. Build docker image backend server et push sur docker hub:
+    ![build & push backend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml/badge.svg)
     ![Alt text](<screenshots/Build github Backend docker image.png>)
     ![Alt text](<screenshots/github push backend docker image.png>)
-    ![build & push backend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_backend.yml/badge.svg)
 -   II. Run & test backend server :
-    ![Alt text](<screenshots/Run and test backend server.png>)
     ![Run & test backend server workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_backend.yml/badge.svg)
+    ![Alt text](<screenshots/Run and test backend server.png>)
 
 ## Frontend :
 
 -   I. Build docker image frontend server et push sur docker hub:
+    ![build & push frontend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml/badge.svg)
     ![Alt text](<screenshots/Build github Frontend docker image.png>)
     ![Alt text](<screenshots/github push frontend docker image.png>)
-    ![build & push frontend docker image workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/build_frontend.yml/badge.svg)
 -   II. Run & test frontend server :
-    ![Alt text](<screenshots/Run and Test frontend server.png>)
     ![Run & test frontend server workflow](https://github.com/Namo2202/ci-cd-h3/actions/workflows/test_frontend.yml/badge.svg)
+    ![Alt text](<screenshots/Run and Test frontend server.png>)
