@@ -1,5 +1,15 @@
 version: "3.8"
 services:
+  frontend:
+    build: frontend
+    container_name: frontend_c
+    ports:
+      - "3000:80"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
   backend:
     build: .
     container_name: backend_server_container
@@ -8,13 +18,3 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-  frontend:
-    build: ./frontend
-    container_name: frontend_container
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-    stdin_open: true
-    tty: true

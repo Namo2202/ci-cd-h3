@@ -61,3 +61,16 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
     ![Alt text](screenshots/Backend_server_container.png)
     ![Alt text](<screenshots/Localhost 5000.png>)
 
+## Docker Compose :
+
+-   I.
+      ![Alt text](<screenshots/Docker compose 1.png>)
+      ![Alt text](<screenshots/Docker compose 2.png>)
+-   II.
+      ![Alt text](<screenshots/Localhost fonctionnel après docker compose.png>)
+    II. Push des images frontend et backend:
+      ![Alt text](<screenshots/push frontend et backend apres docker compose.png>)
+      ![Alt text](<screenshots/Docker hub updated.png>)
+    -   Lien du docker hub mise à jour : https://hub.docker.com/repository/docker/nafise22/mern-project-namo/tags?page=1&ordering=last_updated
+
+      
