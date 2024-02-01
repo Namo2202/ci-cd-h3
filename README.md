@@ -73,4 +73,6 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
       ![Alt text](<screenshots/Docker hub updated.png>)
     -   Lien du docker hub mise à jour : https://hub.docker.com/repository/docker/nafise22/mern-project-namo/tags?page=1&ordering=last_updated
 
-      
+### Docker HELTHCHECK : Test du bon fonctionnement des conteneurs
+
+-   ![Alt text](<screenshots/Docker HEALTHCHECK.png>)
