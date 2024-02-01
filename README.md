@@ -76,3 +76,11 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 ### Docker HELTHCHECK : Test du bon fonctionnement des conteneurs
 
 -   ![Alt text](<screenshots/Docker HEALTHCHECK.png>)
+
+# Reverse proxy NGINX :
+
+-   I. Démarrage du conteneur Nginx sans erreur:
+    ![Alt text](<screenshots/container nginx démarrage sans erreur.png>)
+-   II. Test avec Postman pour accéder à l'application via le proxy Nginx:
+    ![Alt text](<screenshots/test requete GET postman backend.png>)
+    ![Alt text](<screenshots/test requete GET postman frontend.png>)
