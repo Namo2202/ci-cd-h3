@@ -7,10 +7,12 @@ WORKDIR /app
 COPY package.json .
 
 RUN npm install
+RUN npm ci
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 80
+EXPOSE 443
 
 HEALTHCHECK --interval=30s --timeout=3s \
   CMD wget -qO- http://localhost:5000/post || exit 1

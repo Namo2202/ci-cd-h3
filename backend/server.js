@@ -3,6 +3,8 @@ const connectDB = require("./config/db");
 const dotenv = require("dotenv").config();
 const port = 5000;
 const cors = require("cors");
+//const swaggerUi = require('swagger-ui-express');
+//const swaggerDocument = require('./swagger.json'); 
 
 //connexion à mongodb
 connectDB();
@@ -26,3 +28,4 @@ app.use("/post", require("./routes/post.routes"));
 
 // Lancer le serveur
 app.listen(port, () => console.log("Le serveur a démarré au port " + port));
+//app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));

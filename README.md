@@ -11,6 +11,17 @@
 
 Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 
+## Architecture du projet :
+
+![alt text](<screenshots/Schéma CI-CD.png>)
+
+-   Le frontend dépend du backend pour obtenir des données et effectuer des opérations, telles que la récupération et l'affichage de données, et l'envoi de requêtes pour effectuer des actions côté serveur. Le frontend inclut donc le backend dans le sens où il s'appuie sur lui pour fournir des fonctionnalités et des données nécessaires à l'interface utilisateur
+
+-   Routes : Les routes définissent les points d'entrée de l'application, généralement associés à des URI spécifiques (par exemple, /post). Les routes dépendent de la structure de la base de données pour pouvoir interagir avec elle. Donc les routes "incluent" la base de données, car elles sont conçues pour fonctionner en utilisant les données stockées dans la BDD.
+
+-   Schémas de base de données : Les schémas de base de données définissent la structure des données stockées dans la base de données et dépendent de la base de données pour exister et fonctionner correctement. Donc les schémas de base de données "incluent" la base de données, car ils sont conçus pour fonctionner avec elle et définissent sa structure.
+
+
 ## Configuration et Installation :
 
 - Installation des Dépendances Backend :`npm i` pour installer les dépendances Back
@@ -35,6 +46,12 @@ Ce projet est réalisé avec le stack MERN (MongoDB, Express, React, Node).
 -   PATCH "/like-post/:id" (likePost) : Cette route permet à un utilisateur de "liker" une publication spécifique. L'utilisateur fournit l'identifiant de la publication à liker dans l'URL. La fonction likePost du contrôleur est appelée pour incrémenter le nombre de likes de la publication.
 
 -   PATCH "/dislike-post/:id" (dislikePost) : Cette route permet à un utilisateur de "disliker" une publication spécifique. L'utilisateur fournit l'identifiant de la publication à disliker dans l'URL. La fonction dislikePost du contrôleur est appelée pour incrémenter le nombre de dislikes de la publication.
+
+## Swagger io
+
+Le lien de Swagger UI : http://localhost:5000/api-docs/
+
+![alt text](<screenshots/Swagger UI.png>)
 
 # Dockerisation :
 
